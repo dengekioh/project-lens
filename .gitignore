@@ -1,0 +1,25 @@
+# --- A君的 Python 後端設定 ---
+# Python 編譯產生的暫存檔
+__pycache__/
+*.py[cod]
+
+# 虛擬環境 (絕對不能上傳這個，因為太大了且每台電腦不同)
+venv/
+env/
+.venv/
+
+# 環境變數檔 (如果有 API Key 放在這，上傳就死定了)
+.env
+
+# --- B君的 Node.js 前端設定 ---
+# 前端套件包 (超大黑洞)
+node_modules/
+
+# Next.js 建置檔案
+.next/
+dist/
+build/
+
+# --- 系統垃圾檔 ---
+# Mac 常見的討厭鬼
+.DS_Store
