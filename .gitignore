@@ -23,3 +23,4 @@ build/
 # --- 系統垃圾檔 ---
 # Mac 常見的討厭鬼
 .DS_Store
+docs/ignores/
