@@ -27,3 +27,4 @@ build/
 # Mac 常見的討厭鬼
 .DS_Store
 docs/ignores/
+public/
