@@ -8,8 +8,11 @@ venv/
 env/
 .venv/
 
-# 環境變數檔 (如果有 API Key 放在這，上傳就死定了)
+# Environment variables
 .env
+
+# ignore Prompt encode tool (Sensitive data)
+make_secret.py
 
 # --- B君的 Node.js 前端設定 ---
 # 前端套件包 (超大黑洞)
