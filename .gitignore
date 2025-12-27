@@ -13,7 +13,7 @@ env/
 
 # ignore Prompt encode tool (Sensitive data)
 make_secret.py
-
+debug_*
 # --- B君的 Node.js 前端設定 ---
 # 前端套件包 (超大黑洞)
 node_modules/
