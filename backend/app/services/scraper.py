@@ -26,10 +26,10 @@ async def fetch_article(url: str):
             # 🛑 DEBUG STEP 1: 在 Parse 之前，先存檔 HTML 看看
             # -----------------------------------------------------------
             # 這樣我們就知道：到底是「沒下載到內文」，還是「下載到了但 Parse 錯」
-            debug_filename = "debug_yahoo.html"
-            with open(debug_filename, "w", encoding="utf-8") as f:
-                f.write(article.html)
-            print(f"DEBUG: 原始 HTML 已存檔至 {os.path.abspath(debug_filename)}")
+            #debug_filename = "debug_yahoo.html"
+            #with open(debug_filename, "w", encoding="utf-8") as f:
+            #    f.write(article.html)
+            #print(f"DEBUG: 原始 HTML 已存檔至 {os.path.abspath(debug_filename)}")
             # -----------------------------------------------------------
             article.parse()
             
